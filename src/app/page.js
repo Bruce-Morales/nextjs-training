@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 
+
 const apiUrl = 'https://dogapi.dog/api/v2/facts?limit=1';
 
 
