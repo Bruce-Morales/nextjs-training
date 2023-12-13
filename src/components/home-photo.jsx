@@ -19,9 +19,9 @@ export function HomePhoto() {
 
     return (
         <div>
-            
-            <button className="p-1 m-1 bg-indigo-400" onClick={lastPhoto} >Previous</button>
-            <button className="p-1 m-1 bg-indigo-400" onClick={nextPhoto} >Next</button>
+            <img className="max-w-lg self-auto m-auto" id="interactive-image" src="/images/Dog 1.jpg" alt="something isn't right :/"></img>
+            <button className="p-1 m-1 bg-indigo-400 border-solid" onClick={lastPhoto} >Previous</button>
+            <button className="p-1 m-1 bg-indigo-400 border-solid" onClick={nextPhoto} >Next</button>
         </div>
     )
 }
