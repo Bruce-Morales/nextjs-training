@@ -14,7 +14,7 @@ export function HomePhoto() {
         changeImage(1);
       });
 
-      document.getElementById("prev").addEventListener("click", function () {
+ /*     document.getElementById("prev").addEventListener("click", function () {
         changeImage(-1);
         console.log("working back");
       });
@@ -22,9 +22,9 @@ export function HomePhoto() {
       document.getElementById("nex").addEventListener("click", function () {
         changeImage(1);
         console.log("working forward");
-      });
+      }); */
     }
-  }, []); // Empty dependency array ensures this effect runs once after the initial render
+  }, [changeImage]); // Empty dependency array ensures this effect runs once after the initial render
 
   var images = [
     "/images/Dog 1.jpg",
