@@ -51,8 +51,8 @@ export default async function Home() {
 
 
   return (
-    <main className="pt-32 px-5 text-center">
-       <div id="factContainer"><p className="bg-gray-100 border-2 m-1">Dog Fact: {fact}</p></div>
+    <main className="pt-0 px-5 text-center">
+       <div id="factContainer"><p className="bg-gray-100 border-2 p-1 m-3">Dog Fact: {fact}</p></div>
 
     <div className="max-w-[750px] mx-auto">
       <h1 className="text-4xl font-bold bg-orange-500 p-5">The Trouble Twins</h1>
