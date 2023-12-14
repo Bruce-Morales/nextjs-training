@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <Link href="/" className="text-white text-xl font-bold">
-              My Website
+              Yorkies.org
             </Link>
           </div>
 
@@ -20,9 +20,6 @@ const Navbar = () => {
           <div className="flex space-x-4">
             <Link href="/" className="text-white">
               Home
-            </Link>
-            <Link href="/about" className="text-white">
-              About
             </Link>
             <Link href="/contact" className="text-white">
               Contact
