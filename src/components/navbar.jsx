@@ -11,21 +11,21 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>
-            <Link href="/">
-              <a className="text-white text-xl font-bold">My Website</a>
+            <Link href="/" className="text-white text-xl font-bold">
+              My Website
             </Link>
           </div>
 
           {/* Navigation Links */}
           <div className="flex space-x-4">
-            <Link href="/">
-              <a className="text-white">Home</a>
+            <Link href="/" className="text-white">
+              Home
             </Link>
-            <Link href="/about">
-              <a className="text-white">About</a>
+            <Link href="/about" className="text-white">
+              About
             </Link>
-            <Link href="/contact">
-              <a className="text-white">Contact</a>
+            <Link href="/contact" className="text-white">
+              Contact
             </Link>
           </div>
         </div>
