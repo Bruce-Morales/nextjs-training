@@ -51,10 +51,10 @@ export function HomePhoto() {
   }
 
   return (
-    <div>
+    <div className='container-fluid col-lg-6'>
       <img
         ref={imageRef}
-        className="max-w-lg self-auto m-auto"
+        className="container-fluid"
         id="interactive-image"
         src="/images/Dog 1.jpg"
         alt="something isn't right :/"
