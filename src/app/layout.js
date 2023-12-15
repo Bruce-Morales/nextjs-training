@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <header />
         {children}
+         <BootstrapClient />
          <footer />
         </container>
         </body>
