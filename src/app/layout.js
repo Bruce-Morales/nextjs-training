@@ -4,6 +4,7 @@ import { Container } from 'postcss'
 import Navbar from '../components/navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapClient from '@/components/BootstrapClient.js';
+import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
           <header />
         {children}
          <BootstrapClient />
-         <footer />
+         <Footer />
         </container>
         </body>
     </html>
