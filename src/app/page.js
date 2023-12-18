@@ -1,6 +1,6 @@
 // import fetch from 'node-fetch';
 import { HomePhoto } from "@/components/home-photo";
-
+import Link from 'next/link';
 
 
 /*
@@ -60,7 +60,9 @@ export default async function Home() {
         Maximus and Augustus are two brothers of the yorkie terrier species. Their predecessor in our house, Blaze, was also a yorkie terrier, but he was a lot smaller than these two are.
       </p>
       <HomePhoto />
-     
+      <Link href="/secret" className="text-teal-100 bg-teal-100">
+              Secret Page!
+            </Link>
     </div>
   </main>
   )
