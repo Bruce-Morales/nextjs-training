@@ -31,8 +31,8 @@ export default function Page() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-        <p className="text-center">&#128222 Phone: 1-800-1234</p>
-        <p className="text-center">&#128232 Email: Dog@Canine.com</p>
+        <p className="text-center">Phone: 1-800-1234</p>
+        <p className="text-center">Email: Dog@Canine.com</p>
     </div>
     <div className="bg-info-subtle col-md-6 col-lg-6">
         <h2 className="text-center"><u>Maximus</u></h2>
@@ -58,8 +58,8 @@ export default function Page() {
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <p className="text-center">&#128222 Phone: 1-800-4321</p>
-        <p className="text-center">&#128232 Email: Dog@Canine.com</p>
+        <p className="text-center">Phone: 1-800-4321</p>
+        <p className="text-center">Email: Dog@Canine.com</p>
     </div>
 </div>
 
