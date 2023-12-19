@@ -2,6 +2,6 @@
 export default function Page() {
     return (
 
-        <h1>secret page :D</h1>
+        <h1 className="text-center p-auto">Secret page! :D</h1>
     )
 }
